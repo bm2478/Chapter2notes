@@ -1,0 +1,40 @@
+const readLine = require('readline-sync');
+
+let answer = readLine.question("What day is it?\nYour answer: ");
+console.log(answer);
+
+let username = readLine.question("Enter username: ");
+let password = readLine.question("Enter password: ");
+if (password == "abc"){
+    console.log(`Welcome ${username}`)
+} else{
+    console.log("invalid");
+}
+
+let currentPrice = readLine.question("Enter current price:");
+let originalPrice = readLine.question("Enter original price:");
+let diff = originalPrice - currentPrice;
+let discount = (diff/originalPrice).toFixed(2);
+console.log(`discount: ${discount}`)
+
+//Exponets
+let base = readLine.question("Enter the base: ");
+let exp = readLine.question("Enter current exponent:");
+let answer2 = base ** exp;
+console.log(`${base} to the power of ${exp} = ${answer2}`);
+
+//Rounding
+console.log(5.7);
+console.log(math.round(5.7));
+console.log(5.3);
+console.log(math.round(5.3));
+console.log(-5.3);
+console.log(math.round(-5.3));
+
+[1:23 PM] Samantha Bolin
+Add to the bottom of inputNotes:
+
+
+//Other Rounding Methods
+console.log(Math.floor(3.5)); //floor always rounds down
+console.log(Math.ceil(3.5)); //ceil(ing) always rounds up
