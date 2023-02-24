@@ -21,8 +21,24 @@
 // }
 
 //5
-for(let i = 350; i<= 1000; i++){
-    if(i%10==0){
-        console.log(i);
-    }
-}
+// for(let i = 350; i<= 1000; i++){
+//     if(i%10==0){
+//         console.log(i);
+//     }
+// }
+
+//6
+// let sum = 1;
+// for(let i=1; i<=50; i++){
+//     sum+= i;
+// }
+// console.log(sum);
+
+//7
+// let sum = 35;
+// for(let i=35; i<=75; i++){
+//     sum+= i;
+// }
+// console.log(sum);
+
+//8
